@@ -4,10 +4,6 @@ import { getDatabase, ref, onValue, push } from "https://www.gstatic.com/firebas
 import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-auth.js";
 import  { auth, database } from "./firebase";
 
-// Initialize Firebase
-// const app = initializeApp(firebaseConfig);
-// const database = getDatabase(app);
-// const auth = getAuth(app);
 
 const DesignLoginForm = () => {
   const [title, setTitle] = useState("");

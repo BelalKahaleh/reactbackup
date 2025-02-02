@@ -5,8 +5,6 @@ import { getAuth } from "firebase/auth";
 
 
 
-
-
 const DesignLoginForm = () => {
   const [title, setTitle] = useState("");
   const [dueDate, setDueDate] = useState("");
